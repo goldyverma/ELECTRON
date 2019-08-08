@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <style>
+    body{
+      font-family: arial, sans-serif;
+  font-size: 25px;
+  color:aliceblue;
+    }
+    
+    table {
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:black;
+}
+  </style>
+  <body background="background.jfif" width="1800" height="1800">
+   
+
+    <h1>Welcome to PANDA! Your Project Management Database</h1><hr>
+    <img src = 'panda.jpg' width='300' height='250'/>
+    <img src = 'kamal.jfif' width='300' height='250'/>
+    <img src = 'panda1.jfif' width='300' height='250'/>
+    <img src = 'panda2.jfif' width='300' height='250'/>
+    
+    <hr>
+ 
+    <form>
+
+      <button type = "button" onclick="JavaScript :alert('Please choose type of project ')"><img src = 'kamal.jfif'  width='300' height='200'><br>Create a new project</button>
+      <br>
+      
+     <strong> Select the Project you wish to work on </strong>
+      <select name="cars">
+        <option value="254MainCondo ">254 Main Street Condo Building </option>
+        <option value=" RoyalBankHelp">Build a helpDesk workFlow for royal bank</option>
+        <option value="kraft ">Purchase property in winnipeg for new kraft food Office</option>
+        <option value="trainingProgram">Create tarining program for the car leasing company</option>
+      </select>
+    </form>
+  <hr>
+  <table>
+      <tr>
+        <th>Project Name</th>
+        <th>Project Manager</th>
+        <th>Contact number</th>
+      </tr>
+      <tr>
+        <td>254 Main Condo</td>
+        <td>Goldy Verma</td>
+        <td>4372883806</td>
+      </tr>
+      <tr>
+        <td>Royal Bank Help</td>
+        <td>Khaleel Khan</td>
+        <td>4637468358</td>
+      </tr>
+      <tr>
+        <td>Kraft</td>
+        <td>Lovedeep Singh</td>
+        <td>7436756478</td>
+      </tr>
+      <tr>
+          <td>Scotial Bank App</td>
+          <td>Gaganpreet Kaur</td>
+          <td>7436746478</td>
+        </tr>
+     
+        <tr>
+            <td>Extension</td>
+            <td>Anchal Devi</td>
+            <td>7436756478</td>
+          </tr>
+         
+     
+    </table><hr>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
